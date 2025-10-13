@@ -1,0 +1,640 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ html,
+ body {
+     width: 100%;
+     height: 100%;
+ }
+
+ .page {
+     height: 100%;
+     width: 100%;
+
+ }
+
+ .page1 {
+     height: 100%;
+     width: 100%;
+
+ }
+
+ .page2 {
+     height: 100%;
+     width: 100%;
+     background-color: white;
+ }
+
+ .nav {
+     height: 10%;
+     width: 100%;
+     background-color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 3vw;
+     padding-right: 3vw;
+ }
+
+ .nav-logo img {
+     width: 16vw;
+ }
+
+ .nav-content {
+     display: block;
+ }
+
+ .nav-content a {
+     text-decoration: none;
+     color: black;
+     font-size: max(1.8vw, 1.8vh);
+     padding-left: 2vw;
+ }
+
+ .nav-button {
+     display: block;
+ }
+
+ .get-a-quote-btn {
+     color: white;
+     background-color: #FA1239;
+     border: none;
+     border-radius: 18px;
+     padding: 5px 15px 5px 15px;
+     box-shadow: 0px 0px 4px 4px #f9c8d0;
+     outline-color: transparent;
+     outline-width: 2px;
+     font-size: medium;
+ }
+
+ .nav-icon {
+     display: none;
+ }
+
+ .nav-icon i {
+     font-size: 6vw;
+     color: black;
+ }
+
+ .main {
+     height: 90%;
+     width: 100%;
+     background-color: #FFE7EB;
+     display: flex;
+ }
+
+ .part1 {
+     height: 100%;
+     width: 50%;
+ }
+
+ .text-part {
+     width: 100%;
+     margin-top: 12%;
+     margin-left: 12%;
+     position: relative;
+ }
+
+ .text-part img {
+     position: absolute;
+     top: 9.35vw;
+     width: 27vw;
+     display: block;
+ }
+
+ .text-part h1 {
+     font-size: 4.7vw;
+     line-height: 1.1;
+     color: black;
+ }
+
+ .modify {
+     color: red;
+ }
+
+ .text-part p {
+     width: 70%;
+     font-size: 1.24vw;
+     padding-top: 3.6vw;
+     text-transform: capitalize;
+ }
+
+ .text-part-button {
+     width: 65%;
+     gap: 2vw;
+     padding-top: 3vw;
+     display: flex;
+ }
+
+ .btn2 {
+     color: #FA1239;
+     background-color: white;
+     border: 1px solid #FA1239;
+     border-radius: 18px;
+     padding: 9px 18px;
+     box-shadow: 0px 0px 4px 4px #f9c8d0;
+     outline-color: transparent;
+     outline-width: 2px;
+     font-size: 1vw;
+ }
+
+ .btn3 {
+     color: white;
+     letter-spacing: 0.1vw;
+     background-color: #FA1239;
+     border: none;
+     border-radius: 18px;
+     padding: 9px 18px;
+     box-shadow: 0px 0px 5px 5px #f9c8d0;
+     outline-color: transparent;
+     outline-width: 2px;
+     font-size: 1vw;
+ }
+
+
+ .part2 {
+     height: 100%;
+     width: 50%;
+
+ }
+
+ .girl-img {
+     height: 85vh;
+     width: 36vw;
+     margin-top: 5vh;
+     margin-left: 5vw;
+     position: relative;
+
+ }
+
+ .girl-img img {
+     height: 100%;
+     width: 100%;
+ }
+
+ .box1 {
+     background-color: white;
+     height: 17%;
+     width: 57%;
+     position: absolute;
+     bottom: 28%;
+     left: -4%;
+     align-items: center;
+     gap: 1vw;
+     border-radius: 10px;
+     padding: 0.5vw;
+     display: flex;
+ }
+
+ .box2 {
+     background-color: white;
+     height: 18%;
+     width: 45%;
+     position: absolute;
+     bottom: 6%;
+     right: -2%;
+     align-items: center;
+     gap: 1vw;
+     border-radius: 10px;
+     padding: 0.5vw;
+     display: flex;
+ }
+
+ .box1 h1 {
+     color: #1CB098;
+     font-weight: 600;
+     font-size: 4vw;
+     padding-left: 1vw;
+
+
+ }
+
+ .box1 .rating i {
+     color: #FFAB00;
+     padding-right: 1px;
+ }
+
+ .box1 .rating h5 {
+     font-size: 1.5vw;
+ }
+
+ .box2 i {
+     color: #FC4E6A;
+     padding-right: 1vw;
+ }
+
+ .grad-text h1 {
+     font-size: 2.3vw;
+     font-weight: 700;
+     line-height: 0.5;
+     padding-top: 1vw;
+
+ }
+
+ .grad-text h6 {
+     font-size: 1vw;
+     padding-top: 1vw;
+ }
+
+ .page2-text {
+     padding-top: 3vw;
+     text-align: center;
+ }
+
+ .what-you-get {
+     text-transform: capitalize;
+     padding: 10px 10px;
+     border-radius: 12px;
+     font-size: max(1.5vw, 1.5vh);
+     background-color: rgb(249, 200, 208);
+     color: rgb(0, 0, 0);
+     font-weight: 550;
+     border: none;
+ }
+
+ .page2-text h5 {
+     padding-top: 1.5vw;
+     font-size: max(1.5vw, 1.3vh);
+     text-transform: capitalize;
+ }
+
+ .page2-card {
+     padding: 3vw 5vw;
+ }
+
+ .card-wrapper {
+     height: 100%;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .card {
+     height: auto;
+     width: 24%;
+     border-radius: 2vw;
+     border: none;
+     box-shadow: 0px 0px 0.5vw 0.5vw rgba(128, 128, 128, 0.093);
+     outline-color: transparent;
+     outline-width: 0.3vw;
+ }
+
+ .card img {
+     padding-top: 2vw;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 18vw;
+ }
+
+ .card h3 {
+     padding-top: 2vw;
+     margin-left: 2vw;
+     margin-right: 2vw;
+     font-size: max(1.8vw, 1.8vh);
+     text-transform: capitalize;
+ }
+
+ .card p {
+     padding-top: 2vw;
+     margin-left: 2vw;
+     margin-right: 2vw;
+     font-size: max(1.5vw, 1.4vh);
+ }
+
+
+ @media (max-width:1280px) {
+
+     .card-wrapper {
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .card {
+         height: auto;
+         width: 40%;
+         margin-bottom: 4vw;
+         padding-bottom: 4vw;
+     }
+
+     .card img {
+         width: 40vw;
+     }
+
+     .card h3 {
+         padding-top: 2vw;
+         margin-left: 4vw;
+         margin-right: 4vw;
+         font-size: max(3vw, 2.5vh);
+     }
+
+     .card p {
+         padding-top: 2vw;
+         margin-left: 4vw;
+         margin-right: 4vw;
+         font-size: max(2vw, 1.5vh);
+     }
+ }
+
+ @media (max-width:992px) {
+     .nav-logo img {
+         width: 26vw;
+     }
+
+     .nav-content {
+         display: none;
+     }
+
+     .nav-button {
+         display: none;
+     }
+
+     .nav-icon {
+         display: block;
+     }
+
+     .main {
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .part1 {
+         height: 55%;
+         width: 100%;
+     }
+
+     .part2 {
+         height: 45%;
+         width: 100%;
+     }
+
+     .text-part {
+         margin-top: 2vw;
+         margin-left: auto;
+         margin-right: auto;
+         padding-left: 5vw;
+         padding-right: 5vw;
+     }
+
+     .text-part img {
+         display: none;
+     }
+
+     .text-part h1 {
+         font-size: max(9vw, 5.8vh);
+         line-height: 1;
+         text-align: center;
+     }
+
+     .text-part p {
+         width: 100%;
+         font-size: max(2.2vw, 2.6vh);
+         padding-top: max(2.2vw, 2.1vh);
+         text-align: center;
+     }
+
+     .text-part-button {
+         width: 100%;
+         padding-top: max(1vw, 2vh);
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .btn2 {
+         border-radius: 20px;
+         padding: 10px 20px;
+         font-size: max(1.6vw, 1.5vh);
+     }
+
+     .btn3 {
+         letter-spacing: 0;
+         border-radius: 20px;
+         padding: 10px 20px;
+         font-size: max(1.6vw, 1.5vh);
+     }
+
+     .girl-img {
+         height: 38.5vh;
+         width: 38vw;
+         margin-top: 2vh;
+         margin-left: auto;
+         margin-right: auto;
+     }
+
+     .box1 h1 {
+         font-size: 6vw;
+     }
+
+     .box1 .rating i {
+         padding-right: 0.3vw;
+     }
+
+     .box1 .rating h5 {
+         font-size: 1.9vw;
+     }
+
+     .box2 i {
+         padding-right: 1.3vw;
+     }
+
+     .grad-text h1 {
+         font-size: 3vw;
+     }
+
+     .grad-text h6 {
+         font-size: 1.5vw;
+     }
+
+ }
+
+ @media (max-width:768px) {
+
+     .text-part h1 {
+         font-size: max(10vw, 5vh);
+     }
+
+     .text-part p {
+         font-size: max(4.5vw, 2.3vh);
+         padding-top: 2.5vw;
+     }
+
+     .text-part-button {
+         padding-top: 3vw;
+     }
+
+     .btn2 {
+         font-size: max(3vw, 1.5vh);
+     }
+
+     .btn3 {
+         font-size: max(3vw, 1.5vh);
+     }
+
+     .box1 .rating i {
+         padding-right: 0vw;
+     }
+
+ }
+
+ @media (max-width:576px) {
+
+     .text-part h1 {
+         font-size: max(10vw, 4vh);
+     }
+
+     .text-part p {
+         font-size: max(5.3vw, 2vh);
+         padding-top: max(2.5vw, 1.5vh);
+     }
+
+     .text-part-button {
+         padding-top: max(3vw, 1.3vh);
+     }
+
+     .btn2 {
+         font-size: max(3.2vw, 1.3vh);
+     }
+
+     .btn3 {
+         font-size: max(3.2vw, 1.3vh);
+     }
+ }
+
+ @media only screen and (width: 375px) and (height: 667px) {
+     .text-part p {
+         font-size: 4.3vw;
+     }
+
+ }
+
+ @media only screen and (width: 768px) and (height: 1024px) {
+     .text-part h1 {
+         font-size: 8vw;
+     }
+
+     .text-part p {
+         font-size: 4vw;
+     }
+
+     .btn2 {
+         font-size: 2.4vw;
+     }
+
+     .btn3 {
+         font-size: 2.4vw;
+     }
+
+ }
+
+ @media only screen and (width: 1024px) and (height: 1366px) {
+     .main {
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .part1 {
+         height: 55%;
+         width: 100%;
+     }
+
+     .part2 {
+         height: 45%;
+         width: 100%;
+     }
+
+     .text-part {
+         margin-top: 2vw;
+         margin-left: auto;
+         margin-right: auto;
+         padding-left: 5vw;
+         padding-right: 5vw;
+     }
+
+     .text-part img {
+         display: none;
+     }
+
+     .text-part h1 {
+         font-size: max(9vw, 5.8vh);
+         line-height: 1;
+         text-align: center;
+     }
+
+     .text-part p {
+         width: 100%;
+         font-size: max(2.2vw, 2.6vh);
+         padding-top: max(2.2vw, 2.1vh);
+         text-align: center;
+     }
+
+     .text-part-button {
+         width: 100%;
+         padding-top: max(1vw, 2vh);
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .btn2 {
+         border-radius: 20px;
+         padding: 10px 20px;
+         font-size: max(1.6vw, 1.5vh);
+     }
+
+     .btn3 {
+         letter-spacing: 0;
+         border-radius: 20px;
+         padding: 10px 20px;
+         font-size: max(1.6vw, 1.5vh);
+     }
+
+     .girl-img {
+         height: 38.5vh;
+         width: 38vw;
+         margin-top: 2vh;
+         margin-left: auto;
+         margin-right: auto;
+     }
+ }
+
+ @media only screen and (width: 540px) and (height: 720px) {
+     .text-part h1 {
+         font-size: 7vw;
+     }
+
+     .text-part p {
+         font-size: 3.9vw;
+     }
+
+     .btn2 {
+         font-size: 3vw;
+     }
+
+     .btn3 {
+         font-size: 3vw;
+     }
+ }
+
+ @media only screen and (width: 344px) and (height: 882px) {
+     .text-part h1 {
+         font-size: 10vw;
+     }
+
+     .text-part p {
+         font-size: 6vw;
+     }
+
+     .btn2 {
+         font-size: 5.5vw;
+     }
+
+     .btn3 {
+         font-size: 5.5vw;
+     }
+
+     .girl-img {
+         width: 78vw;
+     }
+ }
