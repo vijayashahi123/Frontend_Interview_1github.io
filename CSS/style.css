@@ -104,7 +104,7 @@ main {
     letter-spacing: 0.1;
 }
 
-.box1 .rating i {
+.rating-icon i {
     color: #FFAB00;
 }
 
@@ -127,9 +127,72 @@ main {
     outline-width: 0.3vw;
 }
 
-@media (max-width:992px) {
-    .text-para {
+
+@media (max-width:1200px) {
+    .girl-img img {
         width: 100%;
     }
 }
 
+@media (max-width:1199px) {
+    .grad-260 {
+        font-size: 2.3vw;
+    }
+
+    .grad-h6 {
+        font-size: 1.1vw;
+    }
+}
+
+@media (max-width:992px) {
+    .text-para {
+        width: 100%;
+    }
+
+    .grad-260 {
+        font-size: 4.5vw;
+    }
+
+    .grad-h6 {
+        font-size: 2.4vw;
+    }
+}
+
+@media (max-width:576px) {
+    .grad-260 {
+        font-size: 6vw;
+    }
+
+    .grad-h6 {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width:400px) {
+    .box1 h1 {
+        font-size: 6vw;
+    }
+
+    .rating {
+        letter-spacing: 0;
+    }
+
+    .rating-icon i {
+        font-size: 3vw;
+    }
+    
+    .rating-h5{
+        font-size: 3.4vw;
+    }
+    .grad-icon i {
+        font-size: 6vw;
+    }
+
+    .grad-260 {
+        font-size: 6vw;
+    }
+
+    .grad-h6 {
+        font-size: 3vw;
+    }
+}
