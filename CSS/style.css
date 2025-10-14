@@ -13,6 +13,34 @@
     outline-color: transparent;
     outline-width: 2px;
 }
+#full{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.444);
+    top: 0;
+    right: -40%;
+    backdrop-filter: blur(10px);
+    padding: 150px 60px;
+}
+#full h4{
+    color: #111;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#full i{
+    color: #111;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 25px;
+    cursor: pointer;
+}
 
 main {
     background-color: #FFE7EB;
@@ -24,12 +52,12 @@ main {
 
 .text-header img {
     position: absolute;
-    top: 8.9vw;
-    width: 27vw;
+    top: 6.7rem;
+    width: 22rem;
 }
 
 .text-header h1 {
-    font-size: 4vw;
+    font-size: 3rem;
     line-height: 1.2;
     color: black;
 }
