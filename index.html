@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="CSS/font-awesome-4.7.0/css/font-awesome.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <title>FrontEnd Interview 1</title>
+    <title>FrontEnd Interview</title>
 </head>
 
 <body>
@@ -27,10 +27,29 @@
             <button class="btn-md get-a-quote-btn fs-6">Get A Quote</button>
         </div>
         <div class="nav-icon d-block d-lg-none fs-1">
-            <i class="fa fa-bars" aria-hidden="true"></i>
+            <i class="fa fa-bars" aria-hidden="true" onclick="toggleMobileMenu(true)"></i>
         </div>
     </nav>
-
+    <div id="mobile-menu" class="mobile-menu d-lg-none">
+        <nav class="d-flex justify-content-between align-items-center px-5 pt-4 pb-5">
+            <div class="nav-logo fs-1">
+            <img class="img-fluid" src="assets/images/logo.png" alt="logo-image">
+        </div> 
+        <div class="menu-icon">
+            <i class="fa fa-times fa-4x"  aria-hidden="true" onclick="toggleMobileMenu(false)"></i>
+        </div>
+        </nav>
+        <ul class="menu">
+            <li class="menu-item py-5 px-5 fw-bold fs-1"><i class="fa fa-home pe-5" aria-hidden="true"></i>Home</li>
+            <li class="menu-item py-5 px-5 fw-bold fs-1"><i class="fa fa-info-circle pe-5" aria-hidden="true"></i>About Us</li>
+            <li class="menu-item py-5 px-5 fw-bold fs-1"><i class="fa fa-cog pe-5" aria-hidden="true"></i>Our Services</li>
+            <li class="menu-item py-5 px-5 fw-bold fs-1"><i class="fa fa-tag pe-5" aria-hidden="true"></i>Pricing</li>
+            <li class="menu-item py-5 px-5 fw-bold fs-1"><i class="fa fa-comments pe-5" aria-hidden="true"></i>FAQ</li>
+        </ul>
+        <buttton class="contact-button d-flex justify-content-center mx-5 fs-1 my-5">
+            Contact US
+        </buttton>
+    </div>
     <main>
         <div class="container">
             <div class="row">
@@ -166,3 +185,8 @@
 </body>
 
 </html>
+<script>
+    const toggleMobileMenu = (menuToShow = true) => {
+        document.getElementById("mobile-menu").style.display = menuToShow ? "block" : "none"
+    }
+</script>
