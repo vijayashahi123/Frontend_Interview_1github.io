@@ -212,7 +212,7 @@ main {
         position: absolute;
         right: 0;
         top: 0;
-        width: 100vw;
+        width: 90vw;
         z-index: 1;
         background-color: #FFE7EB;
     }
@@ -241,4 +241,5 @@ main {
         color: #FA1239;
     }
 }
+
 
