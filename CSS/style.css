@@ -1,3 +1,8 @@
+body {
+
+    position: relative;
+}
+
 .nav-content a {
     text-decoration: none;
     color: black;
@@ -180,10 +185,11 @@ main {
     .rating-icon i {
         font-size: 3vw;
     }
-    
-    .rating-h5{
+
+    .rating-h5 {
         font-size: 3.4vw;
     }
+
     .grad-icon i {
         font-size: 6vw;
     }
@@ -194,5 +200,41 @@ main {
 
     .grad-h6 {
         font-size: 3vw;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .mobile-menu {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100vw;
+        z-index: 1;
+        background-color: #FFE7EB;
+    }
+
+    .menu-icon i {
+        color: #FA1239;
+        font-weight: 100;
+    }
+
+    .menu {
+        list-style: none;
+    }
+
+    .contact-button {
+        color: white;
+        background-color: #FA1239;
+        border: none;
+        border-radius: 35px;
+        padding: 9px 18px;
+        box-shadow: 0px 0px 5px 5px #f9c8d0;
+        outline-color: transparent;
+        outline-width: 2px;
+    }
+
+    .menu li:hover {
+        color: #FA1239;
     }
 }
