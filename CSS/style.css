@@ -203,7 +203,9 @@ main {
     }
 }
 
-
+.mobile-menu{
+    display:none;
+}
 @media only screen and (max-width: 992px) {
     .mobile-menu {
         position: absolute;
@@ -238,3 +240,4 @@ main {
         color: #FA1239;
     }
 }
+
