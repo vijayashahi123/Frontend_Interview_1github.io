@@ -202,10 +202,10 @@ main {
         font-size: 3vw;
     }
 }
-
 .mobile-menu{
-    display:none;
+    display: none;
 }
+
 @media only screen and (max-width: 992px) {
     .mobile-menu {
         position: absolute;
@@ -240,4 +240,3 @@ main {
         color: #FA1239;
     }
 }
-
